@@ -59,7 +59,7 @@ const TodoBox = () => {
             ref={ref}
             type="text"
             placeholder="add todo..."
-            className={`h-full w-[68%] px-3 focus:outline-0 text-md md:text-lg font-mono ${theme ? 'text-white/70': 'text-black'}
+            className={`h-full w-[68%] px-3 focus:outline-0 text-md md:text-lg font-mono ${theme ? "text-white/70" : "text-black"}
             `}
           />
           <button
